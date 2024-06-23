@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement; 
 using UnityEngine;
 
 public class SceneChangeonCustomer : MonoBehaviour
 {
-    void onMouseClick(){
+    void OnMouseDown(){
+        Debug.Log("Hi guys :D");
         SceneManager.LoadScene("Dressup");
     }
 }

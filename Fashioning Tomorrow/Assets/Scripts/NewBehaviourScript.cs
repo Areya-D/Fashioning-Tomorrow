@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    void onMouseClick(){
-        SceneManager.LoadScene("Dressup");
+    void onMouseDown() { //when mouse is pressed
+        SceneManager.LoadScene("Dressup"); //change the scene from CustomerSelect to Dressup Screen
     }
 }
-//if customers are the same as on the first screen
