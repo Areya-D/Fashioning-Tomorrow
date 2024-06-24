@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Skirt : MonoBehaviour
 {
-    public Transform Square;
-    public Transform SkirtLocater;
+    //public Transform Square;
+    public Transform SkirtLocator;
+    public Transform RuffleSet; 
+    public Transform TopLocator; 
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +22,8 @@ public class Skirt : MonoBehaviour
     
     //when thing clicked
     void OnMouseDown(){
-       
-        Square.position = SkirtLocater.position;
+        RuffleSet.position = TopLocator.position; 
+        //Square.position = SkirtLocater.position;
     }
 
     //display on position of shirtLocator
