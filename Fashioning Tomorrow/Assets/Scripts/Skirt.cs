@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Skirt : MonoBehaviour
 {
-    public Transform SkirtLocator;
-    public Transform TopLocator; 
+    public Transform ClothingLocator;
+    //public Transform TopLocator; 
     public Transform RuffleSet; 
     public Transform Bottoms;
+    public Transform Shoes; 
     public Transform Top; 
     // Start is called before the first frame update
     void Start()
@@ -24,15 +25,18 @@ public class Skirt : MonoBehaviour
     //when mouse is clicked on clothing it moves to location on avatar 
     void OnMouseDown(){
         if(RuffleSet != null ){
-            RuffleSet.position = TopLocator.position;
+            RuffleSet.position = ClothingLocator.position;
         }
-        
+
         if(Bottoms != null){
-          Bottoms.position = SkirtLocator.position;   
+            Bottoms.position = ClothingLocator.position;   
         }
 
         if(Top != null){
-        Top.position = TopLocator.position; 
+            Top.position = ClothingLocator.position; 
+        }
+        if(Shoes != null){
+            Shoes.position = ClothingLocator.position; 
         }
     }
 
