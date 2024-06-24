@@ -754,6 +754,11 @@ MonoBehaviour:
   Bottoms: {fileID: 274762108}
   Shoes: {fileID: 0}
   Top: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD:Fashioning Tomorrow/Assets/Scenes/Dressup.unity
+=======
+>>>>>>> Stashed changes
 --- !u!50 &274762110
 Rigidbody2D:
   serializedVersion: 4
