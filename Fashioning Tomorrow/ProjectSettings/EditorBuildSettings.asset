@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CustomerSelect.unity
     guid: 1ce4bcc171c35a04f9621600394195ff
   - enabled: 1
-    path: Assets/Scenes/LocDressup.unity
+    path: Assets/Scenes/LocDressupOLD.unity
     guid: 94e7f4c7faba8ea45ad329fe1068c5ed
   - enabled: 1
-    path: Assets/Scenes/PonytTailDressup.unity
+    path: Assets/Scenes/PonytTailDressupOLD.unity
     guid: 90f3508d6e3ffca49967723c25c7eace
   m_configObjects: {}
