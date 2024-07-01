@@ -22,10 +22,15 @@ public class Skirt : MonoBehaviour
         
     }
     
+    void playsound(){
+        
+    }
     //when mouse is clicked on clothing it moves to location on avatar 
     void OnMouseDown(){
+
         if(RuffleSet != null ){
             RuffleSet.position = ClothingLocator.position;
+
         }
 
         if(Bottoms != null){
