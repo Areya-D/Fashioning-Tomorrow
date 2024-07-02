@@ -609,7 +609,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -655,9 +655,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 654727825}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2241dadde3e637649b80ad2430493867, type: 3}
+  m_Script: {fileID: 11500000, guid: 353dc87104e0b2748af7c839166be8fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scaleFactor: 1.2
 --- !u!1 &893485089
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,6 +766,7 @@ GameObject:
   - component: {fileID: 1690953776}
   - component: {fileID: 1690953778}
   - component: {fileID: 1690953779}
+  - component: {fileID: 1690953780}
   m_Layer: 0
   m_Name: LocsAvatar
   m_TagString: Untagged
@@ -907,7 +909,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -973,6 +975,19 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1690953780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690953772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 353dc87104e0b2748af7c839166be8fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleFactor: 1.2
 --- !u!1 &1921262596
 GameObject:
   m_ObjectHideFlags: 0

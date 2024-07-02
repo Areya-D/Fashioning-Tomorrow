@@ -7,14 +7,20 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/AfroDressup.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 236aa1fd38a730e48b313175d81f3b4b
   - enabled: 1
     path: Assets/Scenes/CustomerSelect.unity
     guid: 1ce4bcc171c35a04f9621600394195ff
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LocDressupOLD.unity
     guid: 94e7f4c7faba8ea45ad329fe1068c5ed
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PonytTailDressupOLD.unity
     guid: 90f3508d6e3ffca49967723c25c7eace
+  - enabled: 1
+    path: Assets/Scenes/PonytTailDressup.unity
+    guid: c924d1730722530458445a7a4c3830a4
+  - enabled: 1
+    path: Assets/Scenes/LocDressup.unity
+    guid: 9c8c0566eeed4e8418a9b015cee753ff
   m_configObjects: {}
