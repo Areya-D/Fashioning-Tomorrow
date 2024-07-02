@@ -609,7 +609,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -655,9 +655,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 654727825}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2241dadde3e637649b80ad2430493867, type: 3}
+  m_Script: {fileID: 11500000, guid: 353dc87104e0b2748af7c839166be8fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scaleFactor: 1.2
 --- !u!1 &893485089
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,6 +766,7 @@ GameObject:
   - component: {fileID: 1690953776}
   - component: {fileID: 1690953778}
   - component: {fileID: 1690953779}
+  - component: {fileID: 1690953780}
   m_Layer: 0
   m_Name: LocsAvatar
   m_TagString: Untagged
@@ -907,7 +909,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -973,6 +975,19 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1690953780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690953772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 353dc87104e0b2748af7c839166be8fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleFactor: 1.2
 --- !u!1 &1921262596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1039,8 +1054,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294947838
+  m_fontColor: {r: 0.99557775, g: 0.7012578, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1326,7 +1341,7 @@ Transform:
   m_GameObject: {fileID: 2054084678}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.78, y: 0.69, z: 0}
+  m_LocalPosition: {x: 1.79, y: -13.8, z: 0}
   m_LocalScale: {x: 1.9, y: 1.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
