@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 36761224}
   - component: {fileID: 36761223}
   - component: {fileID: 36761222}
+  - component: {fileID: 36761225}
   m_Layer: 0
   m_Name: SneakersOlive
   m_TagString: Untagged
@@ -300,6 +301,19 @@ MonoBehaviour:
   Top: {fileID: 0}
   ClothesOrigin: {x: -9.28, y: 2.81, z: 0}
   clothingManager: {fileID: 1182897916}
+--- !u!114 &36761225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36761219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &89303253
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,6 +327,7 @@ GameObject:
   - component: {fileID: 89303258}
   - component: {fileID: 89303257}
   - component: {fileID: 89303256}
+  - component: {fileID: 89303259}
   m_Layer: 0
   m_Name: SneakersBlue
   m_TagString: Untagged
@@ -478,6 +493,19 @@ MonoBehaviour:
   Top: {fileID: 0}
   ClothesOrigin: {x: -9.31, y: 0.13, z: 0}
   clothingManager: {fileID: 1182897916}
+--- !u!114 &89303259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89303253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &174646907
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,6 +519,7 @@ GameObject:
   - component: {fileID: 174646910}
   - component: {fileID: 174646912}
   - component: {fileID: 174646911}
+  - component: {fileID: 174646913}
   m_Layer: 0
   m_Name: JeansDarkBlue
   m_TagString: Untagged
@@ -656,6 +685,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &174646913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174646907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &274762106
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,6 +711,7 @@ GameObject:
   - component: {fileID: 274762109}
   - component: {fileID: 274762111}
   - component: {fileID: 274762110}
+  - component: {fileID: 274762112}
   m_Layer: 0
   m_Name: SkirtTrain
   m_TagString: Untagged
@@ -834,6 +877,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1873844, y: 1.9299904}
   m_EdgeRadius: 0
+--- !u!114 &274762112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274762106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &300797790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,6 +1086,7 @@ GameObject:
   - component: {fileID: 471747882}
   - component: {fileID: 471747881}
   - component: {fileID: 471747880}
+  - component: {fileID: 471747883}
   m_Layer: 0
   m_Name: RuffleSetNavy
   m_TagString: Untagged
@@ -1195,6 +1252,19 @@ MonoBehaviour:
   Top: {fileID: 0}
   ClothesOrigin: {x: 3.69, y: 3.33, z: 0}
   clothingManager: {fileID: 1182897916}
+--- !u!114 &471747883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471747877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,6 +1372,7 @@ GameObject:
   - component: {fileID: 639117064}
   - component: {fileID: 639117063}
   - component: {fileID: 639117062}
+  - component: {fileID: 639117065}
   m_Layer: 0
   m_Name: Sneakers
   m_TagString: Untagged
@@ -1467,6 +1538,19 @@ MonoBehaviour:
   Top: {fileID: 0}
   ClothesOrigin: {x: -9.42, y: -1.2, z: 0}
   clothingManager: {fileID: 1182897916}
+--- !u!114 &639117065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639117059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &647709043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,6 +1564,7 @@ GameObject:
   - component: {fileID: 647709046}
   - component: {fileID: 647709048}
   - component: {fileID: 647709047}
+  - component: {fileID: 647709049}
   m_Layer: 0
   m_Name: BlackShirt
   m_TagString: Untagged
@@ -1645,6 +1730,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1021669, y: 0.9073752}
   m_EdgeRadius: 0
+--- !u!114 &647709049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647709043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &794818165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1762,6 +1860,7 @@ GameObject:
   - component: {fileID: 854765487}
   - component: {fileID: 854765489}
   - component: {fileID: 854765488}
+  - component: {fileID: 854765490}
   m_Layer: 0
   m_Name: RuffleSetPink
   m_TagString: Untagged
@@ -1927,6 +2026,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.254343}
   m_EdgeRadius: 0
+--- !u!114 &854765490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854765484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &898819150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,6 +2052,7 @@ GameObject:
   - component: {fileID: 898819153}
   - component: {fileID: 898819155}
   - component: {fileID: 898819154}
+  - component: {fileID: 898819156}
   m_Layer: 0
   m_Name: JeansBlue
   m_TagString: Untagged
@@ -2105,6 +2218,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &898819156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898819150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &944899685
 GameObject:
   m_ObjectHideFlags: 0
@@ -2250,6 +2376,7 @@ GameObject:
   - component: {fileID: 954315212}
   - component: {fileID: 954315211}
   - component: {fileID: 954315210}
+  - component: {fileID: 954315213}
   m_Layer: 0
   m_Name: SneakersGreen
   m_TagString: Untagged
@@ -2415,6 +2542,19 @@ MonoBehaviour:
   Top: {fileID: 0}
   ClothesOrigin: {x: -9.28, y: 1.42, z: 0}
   clothingManager: {fileID: 1182897916}
+--- !u!114 &954315213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954315207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &1182897915
 GameObject:
   m_ObjectHideFlags: 0
@@ -2491,6 +2631,7 @@ GameObject:
   - component: {fileID: 1276574569}
   - component: {fileID: 1276574571}
   - component: {fileID: 1276574570}
+  - component: {fileID: 1276574572}
   m_Layer: 0
   m_Name: RuffleSetBlue
   m_TagString: Untagged
@@ -2656,6 +2797,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1276574572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276574566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &1319034968
 GameObject:
   m_ObjectHideFlags: 0
@@ -2669,6 +2823,7 @@ GameObject:
   - component: {fileID: 1319034971}
   - component: {fileID: 1319034973}
   - component: {fileID: 1319034972}
+  - component: {fileID: 1319034974}
   m_Layer: 0
   m_Name: RuffleSetGreen
   m_TagString: Untagged
@@ -2834,6 +2989,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1319034974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319034968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &1383449287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2993,6 +3161,7 @@ GameObject:
   - component: {fileID: 1479114954}
   - component: {fileID: 1479114956}
   - component: {fileID: 1479114955}
+  - component: {fileID: 1479114957}
   m_Layer: 0
   m_Name: DenimSet
   m_TagString: Untagged
@@ -3158,6 +3327,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9743397, y: 2.569125}
   m_EdgeRadius: 0
+--- !u!114 &1479114957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479114951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &1512751839
 GameObject:
   m_ObjectHideFlags: 0
@@ -3203,6 +3385,7 @@ GameObject:
   - component: {fileID: 1796022504}
   - component: {fileID: 1796022506}
   - component: {fileID: 1796022505}
+  - component: {fileID: 1796022507}
   m_Layer: 0
   m_Name: GreyShirt
   m_TagString: Untagged
@@ -3368,6 +3551,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1796022507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796022501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &1837553876
 GameObject:
   m_ObjectHideFlags: 0
@@ -3484,6 +3680,7 @@ GameObject:
   - component: {fileID: 1850377275}
   - component: {fileID: 1850377274}
   - component: {fileID: 1850377273}
+  - component: {fileID: 1850377276}
   m_Layer: 0
   m_Name: BlackFlats
   m_TagString: Untagged
@@ -3649,6 +3846,19 @@ MonoBehaviour:
   Top: {fileID: 0}
   ClothesOrigin: {x: -7.54, y: -1.1, z: 0}
   clothingManager: {fileID: 1182897916}
+--- !u!114 &1850377276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850377270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &1851373082
 GameObject:
   m_ObjectHideFlags: 0
@@ -3662,6 +3872,7 @@ GameObject:
   - component: {fileID: 1851373087}
   - component: {fileID: 1851373086}
   - component: {fileID: 1851373085}
+  - component: {fileID: 1851373088}
   m_Layer: 0
   m_Name: WhiteFlats
   m_TagString: Untagged
@@ -3827,6 +4038,19 @@ MonoBehaviour:
   Top: {fileID: 0}
   ClothesOrigin: {x: -7.6, y: -0.5, z: 0}
   clothingManager: {fileID: 1182897916}
+--- !u!114 &1851373088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851373082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &1878719340
 GameObject:
   m_ObjectHideFlags: 0
@@ -4254,6 +4478,7 @@ GameObject:
   - component: {fileID: 2105590495}
   - component: {fileID: 2105590497}
   - component: {fileID: 2105590496}
+  - component: {fileID: 2105590498}
   m_Layer: 0
   m_Name: JeansBlack
   m_TagString: Untagged
@@ -4419,6 +4644,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8039038, y: 1.8447723}
   m_EdgeRadius: 0
+--- !u!114 &2105590498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105590492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1 &2124559773
 GameObject:
   m_ObjectHideFlags: 0
@@ -4516,6 +4754,7 @@ GameObject:
   - component: {fileID: 2130824100}
   - component: {fileID: 2130824102}
   - component: {fileID: 2130824101}
+  - component: {fileID: 2130824103}
   m_Layer: 0
   m_Name: SkirtPink
   m_TagString: Untagged
@@ -4681,6 +4920,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.82520837, y: 0.9712884}
   m_EdgeRadius: 0
+--- !u!114 &2130824103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130824097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7d5cce4cc143b4f86f7f0ec44d312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: b25ffc9fe016a104b8f991b6b63170c5, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
