@@ -14,4 +14,11 @@ public class DontDestroyMusic : MonoBehaviour
     DontDestroyOnLoad(this.gameObject);
 
    }
+
+   void Update(){
+    if (Input.GetKey("escape")){
+        Debug.Log("Goodbye");
+        Application.Quit();
+    }
+   }
 }
